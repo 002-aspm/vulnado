@@ -10,11 +10,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: demo-go-service
-          artifact-id: cc3c7d6b-ff03-4781-8cc1-45d83da31c11
-          target-environment: aspm_qa
-      - uses: cloudbees-io/register-deployed-artifact@v2
-        with:
           labels: go-oct
           artifact-id: fd50ab1e-9fe7-4cb8-afc7-45c6d1c36dba
           target-environment: aspm_qa
