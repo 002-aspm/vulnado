@@ -11,5 +11,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: go-oct
-          artifact-id: fd50ab1e-9fe7-4cb8-afc7-45c6d1c36dba
+          artifact-id: a7e0d5f0-0244-4e37-aa31-cf8213105df6
           target-environment: aspm_qa
